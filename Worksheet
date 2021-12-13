@@ -1,0 +1,82 @@
+## Coded by Ken-Miles on Github
+
+## Question 1 - Done
+
+n = "abcdefghijklmnopqrstuvwxyz"
+for i in range(len(n)):
+    print(n[i])
+
+print("---------------------------------")
+
+## Question 2 - Done
+
+a = input("Word?")
+
+for x in range(len(n)):
+    print(a[x[0]])
+
+print("---------------------------------")
+
+## Question 3 - Done
+
+r = int(input("Number: "))
+
+for j in str(r):
+    print(10-int(j))
+
+print("---------------------------------")
+
+## Question 4 - Done
+
+p = int(input("Type another multidigit number: "))
+
+q = 0
+
+for i in str(p):
+    q += int(i)
+    
+print(q)
+
+## Question 5 - Done
+
+numbers = [8, 2, 4, 10, 5, 12]
+for i in numbers
+    print("Square of ", i, " is ", i ** 2)
+
+print("---------------------------------")
+
+## Question 6
+
+s = input("Type in multiple numbers: ")
+
+s = s.split()
+
+for i in range(len(s)):
+    print(sum(int(i)/len(s)))
+
+
+
+
+print(t)
+
+
+
+
+## NAA
+
+d = input("Enter numbers: ")
+
+for i in d:
+    e = int(d)
+    print(e)
+
+print("---------------------------------")
+
+## Question 8
+
+h = input("Enter names: ")
+
+j = h.split()
+
+for k in j:
+    print("Hello ", j[k])
